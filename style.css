@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    white-space: normal;
+    background-size: cover; 
+    font-family: 'Flamenco',cursive;
+    text-emphasis-position: above;
+    margin-left: 20px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    text-align: center;
+    background-image: url(background1.jpg);
+    
+}
+font {
+    font-size: 170%;
+    white-space:inherit;
+    color:black;
+     
+}
+
+header {
+    display:contents;
+    position:fixed;
+    background-color: #eee;
+}
+header * {
+    display: inline;
+    height: 150px;
+}
+.logo{
+    height: 75px;
+    width: 95px;
+    margin-top: 40px ;
+    margin-left: auto;
+    border-radius: 30px;
+    
+}
+
+.quote{
+
+    text-align: center;
+    margin-top: 59px;
+    margin-left: 400px;
+    color: fuchsia;
+}
+.text{
+    margin-top: 59px;
+    font-weight: 100;
+}
+.section{
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#home .profile-img {
+    width: 50vh;
+}
+
+.main-nav {
+        margin-top: 60px;
+    float: right;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    
+    }
+.main-nav li a{
+    color: black;
+    font-size: 200%;
+    font-weight: 600px;
+    text-decoration: none;
+    font-family: cursive;
+    font-variant-caps: unicase;
+    margin-right: 20px;
+}
+
+
+h1{
+    color:#000000;
+    font-size:50px; 
+}
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default*/ 
+.mySlides {
+  display:list-item;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+footer{
+    text-align: center;
+ 
+}
+
+
+
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 11px; /* Some padding */ 
+  border-radius: 8px; /* Rounded borders */
+ box-sizing: border-box; 
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical;
+    margin-top: 20px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+h2{
+    text-align: center;
+    margin-top: 59px;
+    font-size: 50px;
+    color: crimson;
+}
+ol{
+    text-align: center;
+}
+
+p{
+    margin-top: 57px;
+    text-align:center;
+    
+}

@@ -1,0 +1,123 @@
+<html>
+<head> <link rel="stylesheet"href="style.css">
+        <title>Raja Plastic Industries</title>
+        <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+
+    
+    </head>
+
+    
+    
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+        <img src="logo3.png"class="logo">
+                    
+        <ul class="main-nav">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="work.html">Work With Us</a></li>
+            <li><a href="Contact.html">More</a></li>
+            
+        </ul>
+                </div>
+            </nav>
+        
+            <h1>Raja Plastic Industries</h1>
+            <br>
+
+        </header>
+        <div class="quote">
+        <font><i>Design is doing things differently, and better.
+
+            </i> 
+
+-James Dyson  </font></div>
+               <br>
+        <br>
+        <hr><div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="factory.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="factory3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Manufacturing3.jpg" style="width:100%">
+  </div>
+        
+<div class="mySlides fade">
+    <img src="2-2.png" style="width:100%">
+  </div>
+        <div class="mySlides fade">
+    <img src="infra2.jpg" style="width:auto">
+  </div>
+        <div class="mySlides fade">
+    <img src="taparia1.jpg" style="width:auto">
+  </div>
+        
+        <div class="mySlides fade">
+    <img src="taparia2.jpg" style="width:auto">
+  </div>
+
+        <div class="mySlides fade">
+    <img src="taparia3.jpg" style="width:auto">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+                
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+        
+</script>
+             
+        
+    </body>
+
+    <footer>
+        <h4>Copyrights Reserved</h4>
+    
+    </footer>
+
+
+
+
+
+
+</html>
